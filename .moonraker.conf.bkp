@@ -29,7 +29,9 @@ enable_object_processing = True
 [history]
 
 [update_manager]
+enable_auto_refresh = True
 channel = dev
+refresh_interval = 48
 
 [update_manager client mainsail]
 type = web
